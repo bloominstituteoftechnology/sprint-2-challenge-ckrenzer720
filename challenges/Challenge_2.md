@@ -27,9 +27,9 @@ Example:
 ]
 ```
 
-The grid is interpreted with `x` and `y` coordinates ranging from 1 to 3.
-- `x = 1` and `y = 1` represents the top-left square.
-- `x = 3` and `y = 1` represents the top-right square.
+The grid is interpreted with `x` and `y` coordinates ranging from 1 to 3. --> [y][x]
+- `x = 1` and `y = 1` represents the top-left square. --> (grid, (y - 1), (x - 1))
+- `x = 3` and `y = 1` represents the top-right square. --> (grid), (y - 1), (x - )
 - `x = 3` and `y = 3` represents the bottom-right square.
 
 ## Requirements
